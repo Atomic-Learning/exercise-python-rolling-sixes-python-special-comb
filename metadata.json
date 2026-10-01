@@ -1,6 +1,6 @@
 {
-    "title": "Exercise: Python Binomial Probabilities",
-    "slug": "exercise-python-binomial-probabilities",
+    "title": "Exercise: Calculating the Probability of Rolling 6s Using scipy.special.comb()",
+    "slug": "exercise-python-rolling-sixes-python-special-comb",
     "description": "Calculate probabilities for outcomes when rolling a six on a fair die, first by implementing the binomial formula with scipy.special.comb().",
     "authors": [
         "chris-cooling",
