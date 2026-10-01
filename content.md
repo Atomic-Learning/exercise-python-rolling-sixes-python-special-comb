@@ -14,7 +14,6 @@ Use your function to calculate the probability of rolling exactly 16 sixes in 10
 Click below to reveal the solution:
 
 > [!HIDDEN]
->
 > ```py-cell
 > from scipy.special import comb
 >
