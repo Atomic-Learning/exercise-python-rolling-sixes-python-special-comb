@@ -1,22 +1,36 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Exercise: Python Binomial Probabilities",
+    "slug": "exercise-python-binomial-probabilities",
+    "description": "Calculate probabilities for outcomes when rolling a six on a fair die, first by implementing the binomial formula with scipy.special.comb().",
     "authors": [
-        "",
-        ""
+        "chris-cooling",
+        "giorgia-del-missier"
     ],
     "tags": [
-        "",
-        ""
+        "exercise",
+        "python",
+        "numpy",
+        "scipy",
+        "statistics"
     ],
-    "duration": 0,
+    "duration": 10,
     "prerequisites": [
-        "",
-        ""
+        "maths-factorial",
+        "scipy-introduction",
+        "scipy-special-functions",
+        "numpy-arrays",
+        "numpy-array-arithmetic",
+        "python-defining-functions",
+        "python-for-loops-over-iterables"
     ],
     "related": [
-        "",
-        ""
+        "exercise-scipy-special-function-discovery",
+        "numpy-array-statistics",
+        "maths-permutations",
+        "exercise-python-simultaneous-equations"
+    ],
+    "python_packages": [
+        "numpy",
+        "scipy"
     ]
 }
