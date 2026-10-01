@@ -7,7 +7,6 @@ Write a function which calculates the binomial probability $P(X=k)$ for given va
 
 # Define a function for the binomial probability.
 def binomial_probability(p, n, k):
-    pass
 ```
 
 Use your function to calculate the probability of rolling exactly 16 sixes in 100 rolls.
@@ -21,6 +20,10 @@ Click below to reveal the solution:
 >
 > def binomial_probability(p, n, k):
 >     return comb(n, k) * p**k * (1-p)**(n-k)
+>
+> # Example usage:
+> probability_16_sixes = binomial_probability(1/6, 100, 16)
+> print(probability_16_sixes)
 > ```
 
 ## Add probabilities
