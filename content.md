@@ -1,4 +1,4 @@
-Write a function which calculates the probability of $k$ successes being rolled for given values of the probability of success $p$, total number of trials $n$, and $k$. As a reminder, the equation for the binomial probability is:
+Write a function which calculates the probability of $k$ successes being rolled for given values of the probability of success $p$, total number of trials $n$, and $k$. As a reminder, the equation for the binomial probability mass function is:
 
 $$
 P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}
