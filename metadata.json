@@ -15,19 +15,15 @@
     ],
     "duration": 10,
     "prerequisites": [
-        "maths-factorial",
-        "scipy-introduction",
-        "scipy-special-functions",
+        "statistics-binomial-distribution",
+        "scipy-combination-comb",
         "numpy-arrays",
         "numpy-array-arithmetic",
+        "numpy-arange",
         "python-defining-functions",
-        "python-for-loops-over-iterables"
+        "python-sum"
     ],
     "related": [
-        "exercise-scipy-special-function-discovery",
-        "numpy-array-statistics",
-        "maths-permutations",
-        "exercise-python-simultaneous-equations"
     ],
     "python_packages": [
         "numpy",

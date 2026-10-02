@@ -1,6 +1,10 @@
-A fair six-sided die is rolled 100 times. Treat rolling a six as a success, so the probability of success on each roll is $p=\frac{1}{6}$.
+Write a function which calculates the probability of $k$ successes being rolled for given values of the probability of success $p$, total number of trials $n$, and $k$. As a reminder, the equation for the binomial probability is:
 
-Write a function which calculates the binomial probability $P(X=k)$ for given values of $p$, $n$, and $k$. Use `scipy.special.comb`{.python} to calculate the binomial coefficient.
+$$
+P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}
+$$
+
+where $\binom{n}{k}$ is the binomial coefficient. Use `scipy.special.comb`{.python} to calculate the binomial coefficient.
 
 ```py-cell
 # Import the functions and packages you need.
@@ -9,7 +13,9 @@ Write a function which calculates the binomial probability $P(X=k)$ for given va
 def binomial_probability(p, n, k):
 ```
 
-Use your function to calculate the probability of rolling exactly 16 sixes in 100 rolls.
+A fair six-sided die is rolled 100 times. Treat rolling a six as a success, so the probability of success on each roll is $p=\frac{1}{6}$.
+
+In the cell above, call your function to calculate the probability of rolling exactly 16 sixes in 100 rolls. You should get an answer around 0.106.
 
 Click below to reveal the solution:
 
@@ -27,7 +33,11 @@ Click below to reveal the solution:
 
 ## Add probabilities
 
-Use your function to calculate the probability of rolling 10 or fewer sixes. You can do this by adding the probabilities for $k=0,1,\ldots,10$.
+Use your function to calculate the probability of rolling 10 or fewer sixes. You should get an answer around 0.043. Click below for hints:
+
+>[!HIDDEN]
+> You can do this by adding the probabilities for $k=0,1,\ldots,10$.
+> You may be able to apply your function to an array of values for $k$ and then sum the results.
 
 ```py-cell
 # Calculate the probability of 10 or fewer sixes.
