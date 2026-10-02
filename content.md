@@ -36,8 +36,8 @@ Click below to reveal the solution:
 Use your function to calculate the probability of rolling 10 or fewer sixes. You should get an answer around 0.043. Click below for hints:
 
 >[!HIDDEN]
-> You can do this by adding the probabilities for $k=0,1,\ldots,10$.
-> You may be able to apply your function to an array of values for $k$ and then sum the results.
+> - You can do this by adding the probabilities for $k=0,1,\ldots,10$.
+> - You may be able to apply your function to an array of values for $k$ and then sum the results.
 
 ```py-cell
 # Calculate the probability of 10 or fewer sixes.
